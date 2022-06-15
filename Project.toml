@@ -1,0 +1,7 @@
+name = "TGW2D"
+uuid = "73067dc3-82a8-4131-84ca-cf046b8de439"
+authors = ["FTocci <72250345+FTocci@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+LinearAlgebraicRepresentation = "95167b0c-186a-594b-a231-52369c6de044"
