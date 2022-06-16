@@ -7,13 +7,6 @@ Documentazione: https://ftocci.github.io/TGW2D/build/
 
 Matteo Maraziti 
 
-![MatteoMaraziti](/images/MatteoMaraziti.png)
-
 Federico Tocci  
 
-![FedericoTocci](/images/FedericoTocci.png)
-
 Giacomo Scordino
-
-![GiacomoScordino](/images/GiacomoScordino.png)
-
