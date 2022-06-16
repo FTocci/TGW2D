@@ -1,6 +1,6 @@
 # TGW2D
 
-CPD22-Project6  
+CPD22-Progetto 6  
 Link al notebook: https://github.com/FTocci/TGW2D/blob/main/NotebookTGW2D.ipynb
 
 Documentazione: https://ftocci.github.io/TGW2D/build/
