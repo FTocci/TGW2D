@@ -30,7 +30,7 @@ The Julia source code is organized as follows:
 
 | Directory         | Contents                                                           |
 | -                 | -                                                                  |
-| `reports/`        | reports in pdf e md formats                                        |
+| `reports/`        | reports in pdf format                                              |
 | `notebooks/`      | notebooks that explain how the functions work                      |
 | `examples/`       | some examples for every type of function in Lar Projects           |
 | `src/`            | source for Julia language core                                     |
