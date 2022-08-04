@@ -32,6 +32,6 @@ The Julia source code is organized as follows:
 | -                 | -                                                                  |
 | `reports/`        | reports in pdf e md formats                                        |
 | `notebooks/`      | notebooks that explain how the functions work                      |
-| `examples/`       | some examples for every type of function                           |
+| `examples/`       | some examples for every type of function in Lar Projects           |
 | `src/`            | source for Julia language core                                     |
 | `test/`           | test suites                                                        |
