@@ -9,7 +9,6 @@ Progetto **Topological Gift Wrapping 2D** per **Calcolo Parallelo e Distribuito*
 | Giacomo Scordino | 533393 | gia.scordino1@stud.uniroma3.it | [https://github.com/GiacomoScordino](https://github.com/GiacomoScordino)| 
 
 Documentazione: https://ftocci.github.io/TGW2D/build/  
-Link al notebook: https://github.com/FTocci/TGW2D/blob/main/NotebookTGW2D.ipynb
 
 ## Packages
 
