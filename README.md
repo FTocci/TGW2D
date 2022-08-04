@@ -1,6 +1,6 @@
 # TGW2D
 
-Project **Topological Gift Wrapping 2D** from **Calcolo Parallelo e Distribuito** developed by:
+Progetto **Topological Gift Wrapping 2D** per **Calcolo Parallelo e Distribuito** sviluppato da:
 
 | Nome | Matricola | E-mail | Github Profile |  
 |:---|:---|:---|:---|  
@@ -26,7 +26,8 @@ Notebooks:
  
  
 ## TGW2D
-'English Version'
+`English Version`
+
 The Topological Gift Wrapping repository contains functions for computing the arrangement on the given cellular complex 1-skeleton in 2D.
 A cellular complex is arranged when the intersection of every possible pair of cell
 of the complex is empty and the union of all the cells is the whole Euclidean space.
