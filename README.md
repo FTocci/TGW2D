@@ -27,7 +27,11 @@ Consult Notebooks:
  
 ## TGW2D
 
-The Topological Gift Wrapping repository contains .......
+The Topological Gift Wrapping repository contains functions for computing the arrangement on the given cellular complex 1-skeleton in 2D.
+A cellular complex is arranged when the intersection of every possible pair of cell
+of the complex is empty and the union of all the cells is the whole Euclidean space.
+The basic method of the function without the `sigma`, `return_edge_map` and `multiproc` arguments
+returns the full arranged complex `V`, `EV` and `FE`.
 
 ## Source Code Organization
 
