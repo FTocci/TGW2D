@@ -21,7 +21,7 @@ Link al notebook: https://github.com/FTocci/TGW2D/blob/main/NotebookTGW2D.ipynb
 ```
 
 Notebooks:
- - `Studio Preliminare`: https://github.com/FTocci/TGW2D/blob/main/notebooks/NotebookFinale.ipynb
+ - `Studio Preliminare`: https://github.com/FTocci/TGW2D/blob/main/notebooks/NotebookPreliminare.ipynb
  - `Studio Esecutivo - Finale`: https://github.com/FTocci/TGW2D/blob/main/notebooks/NotebookFinale.ipynb
  
  
