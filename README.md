@@ -8,7 +8,7 @@ Progetto **Topological Gift Wrapping 2D** per **Calcolo Parallelo e Distribuito*
 | Federico Tocci | 533449 | fed.tocci@stud.uniroma3.it | [https://github.com/FTocci](https://github.com/FTocci) |  
 | Giacomo Scordino | 533393 | gia.scordino1@stud.uniroma3.it | [https://github.com/GiacomoScordino](https://github.com/GiacomoScordino)| 
 
-Documentazione: [https://ftocci.github.io/TGW2D/build/]  
+Documentazione: https://ftocci.github.io/TGW2D/build/  
 Link al notebook: https://github.com/FTocci/TGW2D/blob/main/NotebookTGW2D.ipynb
 
 ## Packages
@@ -21,8 +21,8 @@ Link al notebook: https://github.com/FTocci/TGW2D/blob/main/NotebookTGW2D.ipynb
 ```
 
 Notebooks:
- - `Studio Preliminare`:
- - `Studio Esecutivo - Finale`:
+ - `Studio Preliminare`: https://github.com/FTocci/TGW2D/blob/main/notebooks/NotebookFinale.ipynb
+ - `Studio Esecutivo - Finale`: https://github.com/FTocci/TGW2D/blob/main/notebooks/NotebookFinale.ipynb
  
  
 ## TGW2D
