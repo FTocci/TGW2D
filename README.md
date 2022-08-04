@@ -20,6 +20,11 @@ Link al notebook: https://github.com/FTocci/TGW2D/blob/main/NotebookTGW2D.ipynb
 (@v1.6) pkg> add SparseArrays
 ```
 
+Consult Notebooks:
+ - `Studio Preliminare`:
+ - `Studio Esecutivo - Finale`:
+ 
+ 
 ## TGW2D
 
 The Topological Gift Wrapping repository contains .......
