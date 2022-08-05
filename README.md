@@ -39,6 +39,6 @@ returns the full arranged complex `V`, `EV` and `FE`.
 | -                 | -                                                                  |
 | `reports/`        | file in formato pdf                                                |
 | `notebooks/`      | notebooks che spiegano il funzionamento delle singole funzioni     |
-| `examples/`       | esempi di ogni funzione presente all'interno dei progetti LAR      |
+| `docs/`           | file necessari per documentazione online                           |
 | `src/`            | codice sorgente per TGW2D                                          |
 | `test/`           | file di test                                                       |
