@@ -600,10 +600,7 @@ returns the full arranged complex `V`, `EV` and `FE`.
 - `return_edge_map::Bool`: makes the function return also an `edge_map` which maps the edges of the imput to the one of the output. Defaults to `false`.
 - `multiproc::Bool`: Runs the computation in parallel mode. Defaults to `false`.
 """
-function planar_arrangement(
-        V::Lar.Points,
-        copEV::Lar.ChainOp,
-        sigma::Lar.Chain=spzeros(Int8, 0),
+function planar_arrangement(V::Lar.Points, copEV::Lar.ChainOp, sigma::Lar.Chain=spzeros(Int8, 0),
         return_edge_map::Bool=false,
         multiproc::Bool=false)
 
@@ -613,12 +610,11 @@ function planar_arrangement(
 
 # cleandecomposition
 	if sigma.n > 0
-		V,copEV=Lar.Arrangement.cleandecomposition(V, copEV, sigma, edge_map)
+		V,copEV=cleandecomposition(V, copEV, sigma, edge_map)   #
 	end
 
     bicon_comps = Lar.Arrangement.biconnected_components(copEV)
-    # EV = Lar.cop2lar(copEV)
-    # V,bicon_comps = Lar.biconnectedComponent((V,EV))
+    
 
 	if isempty(bicon_comps)
     	println("No biconnected components found.")
