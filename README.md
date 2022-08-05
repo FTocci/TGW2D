@@ -12,7 +12,7 @@ Documentazione: https://ftocci.github.io/TGW2D/build/
 
 ## Packages
 
-```julia
+```
 (@v1.6) pkg> add "https://github.com/cvdlab/ViewerGL.jl"
 (@v1.6) pkg> add LinearAlgebraicRepresentation
 (@v1.6) pkg> add DataStructures
