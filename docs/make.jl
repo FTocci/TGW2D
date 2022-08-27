@@ -7,8 +7,9 @@ makedocs(
     	sitename = "TGW2D",
 	 pages=[
 	"Informazioni Generali" => "index.md",
-	"Introduzione" => "intro.md",
 	"Grafo delle Dipendenze" => "grafodipendenze.md",
+	"Introduzione" => "intro.md",
+	"Stato dell'arte" => "arte.md",
 	"Sviluppo" => "sviluppo.md",
 	"Analisi delle prestazioni" => "prestazioni.md",
 	"Conclusione" => "conclusioni.md"
