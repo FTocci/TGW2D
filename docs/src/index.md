@@ -1,4 +1,4 @@
-Progetto **TGW2D** per il corso di **Calcolo Parallelo e Distribuito** svolto da:
+Progetto **TGW2D** per il corso di **Calcolo Parallelo e Distribuito**:
 
 | Nome | E-mail |
 |:---|:---|
