@@ -1,10 +1,17 @@
 using Documenter
+using DocumenterTools: Themes
 using LinearAlgebraicRepresentation
 
 makedocs(
-    sitename = "TGW2D",
+	format = Documenter.HTML(),
+    	sitename = "TGW2D",
 	 pages=[
-        "Topological Gift Wrapping 2D" => "index.md",
+	"Informazioni Generali" => "index.md",
+	"Introduzione" => "intro.md",
+	"Grafo delle Dipendenze" => "grafodipendenze.md",
+	"Sviluppo" => "sviluppo.md",
+	"Analisi delle prestazioni" => "prestazioni.md",
+	"Conclusione" => "conclusioni.md"
 	]
 )
 
