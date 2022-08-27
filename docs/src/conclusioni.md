@@ -1,4 +1,4 @@
-# Conclusioni
+# Conclusioni e Sviluppi Futuri
 
 Nonostante le modifiche apportate all'algoritmo sostengano maggiormente le prestazioni riducendo il tempo
 di esecuzione, sviluppi futuri possono prevedere l'impiego di tecnologie come:

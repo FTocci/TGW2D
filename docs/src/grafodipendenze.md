@@ -5,10 +5,16 @@ Ogni arco orientato rappresenta una chiamata di funzione $(v_1, v_2)$, dove $v_1
 
 
 
-[image](images/grafoDipendenze/1.png)
-[image](images/grafoDipendenze/2.png)
-[image](images/grafoDipendenze/3.png)
-[image](images/grafoDipendenze/4.png)
-[image](images/grafoDipendenze/5.png)
-[image](images/grafoDipendenze/6.png)
-[image](images/grafoDipendenze/7.png)
+![image](images/grafoDipendenze/1.png)
+
+![image](images/grafoDipendenze/2.png)
+
+![image](images/grafoDipendenze/3.png)
+
+![image](images/grafoDipendenze/4.png)
+
+![image](images/grafoDipendenze/5.png)
+
+![image](images/grafoDipendenze/6.png)
+
+![image](images/grafoDipendenze/7.png)
