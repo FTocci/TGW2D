@@ -51,10 +51,11 @@ In tal senso, Julia offre strumenti che possono aiutare a diagnosticare i proble
 migliorare le prestazioni del codice. Per questa fase di studio dell’algoritmo sono stati
 usati:
 
-1. Profiling: La profilazione consente di misurare le prestazioni del codice in
+- Profiling: La profilazione consente di misurare le prestazioni del codice in
 esecuzione e di identificare le linee che fungono da colli di bottiglia. Per la
 visualizzazione dei risultati è stato usato il pacchetto ProfileView.
-2. @time: Una macro che esegue un'espressione, stampando il tempo di
+
+- @time: Una macro che esegue un'espressione, stampando il tempo di
 esecuzione, il numero di allocazioni e il numero totale di byte che l'esecuzione ha
 causato, prima di restituire il valore dell'espressione.
 
@@ -81,3 +82,52 @@ presenti nello stesso. Questa scelta implementativa ha coinvolto prevalentemente
 funzione “merge_vertices”, il cui corpo al termine delle modifiche è risultato 
 notevolmente più leggibile. In particolare, le funzioni che sono state aggiunte nel codice 
 sono mergeCongruentVertices, mergeCongruentEdges e buildEdgeMap.
+
+```julia
+function mergeCongruentVertices(vertsnum,newverts,kdtree,V,err=1e-4)
+    todelete = []
+    i = 1
+    for vi in 1:vertsnum
+        if !(vi in todelete)
+            nearvs = Lar.inrange(kdtree, V[vi, :], err)
+            newverts[nearvs] .= i
+            nearvs = setdiff(nearvs, vi)
+            todelete = union(todelete, nearvs)
+            i = i + 1
+        end
+    end
+    return todelete,newverts
+end
+
+function mergeCongruentEdges(edgenum,newverts,EV)
+    edges = Array{Tuple{Int, Int}, 1}(undef, edgenum)
+    oedges = Array{Tuple{Int, Int}, 1}(undef, edgenum)
+    @sync begin
+        for ei in 1:edgenum
+            @async begin
+                v1, v2 = EV[ei, :].nzind
+                edges[ei] = Tuple{Int, Int}(sort([newverts[v1], newverts[v2]]))
+                oedges[ei] = Tuple{Int, Int}(sort([v1, v2])) 
+            end
+        end 
+    end
+    return edges,oedges
+end
+
+function buildEdgeMap(nedges,nedgenum,nEV,etuple2idx,edge_map,edges)
+    for ei in 1:nedgenum
+        nEV[ei, collect(nedges[ei])] .= 1
+        etuple2idx[nedges[ei]] = ei
+    end
+    
+    for i in 1:length(edge_map)
+        row = edge_map[i]
+        row = map(x->edges[x], row)
+        row = filter(t->t[1]!=t[2], row)
+        row = map(x->etuple2idx[x], row)
+        edge_map[i] = row 
+    end        
+    return edge_map,nEV
+end
+
+```
