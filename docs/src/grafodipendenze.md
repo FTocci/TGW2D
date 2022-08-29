@@ -5,7 +5,10 @@ Ogni arco orientato rappresenta una chiamata di funzione $(v_1, v_2)$, dove $v_1
 
 
 
-![image](images/grafoDipendenze/1.png)
+![image](images/grafoDipendenze/fragEdge.png)
+![image](images/grafoDipendenze/fragEdgeChannel.png)
+
+![image](images/grafoDipendenze/intersectEdges.png)
 
 ![image](images/grafoDipendenze/2.png)
 
