@@ -610,7 +610,7 @@ function planar_arrangement(V::Lar.Points, copEV::Lar.ChainOp, sigma::Lar.Chain=
 
 # cleandecomposition
 	if sigma.n > 0
-		V,copEV=cleandecomposition(V, copEV, sigma, edge_map)   #
+		V,copEV=cleandecomposition(V, copEV, sigma, edge_map)   
 	end
 
     bicon_comps = Lar.Arrangement.biconnected_components(copEV)
