@@ -12,6 +12,7 @@ makedocs(
 	"Stato dell'arte" => "arte.md",
 	"Sviluppo" => "sviluppo.md",
 	"Analisi delle prestazioni" => "prestazioni.md",
+	"Macchina DGX-1" => "dgx.md",
 	"Conclusione" => "conclusioni.md"
 	]
 )

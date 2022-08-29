@@ -51,11 +51,15 @@ In tal senso, Julia offre strumenti che possono aiutare a diagnosticare i proble
 migliorare le prestazioni del codice. Per questa fase di studio dell’algoritmo sono stati
 usati:
 
-- Profiling: La profilazione consente di misurare le prestazioni del codice in
+- Profiling
+
+La profilazione consente di misurare le prestazioni del codice in
 esecuzione e di identificare le linee che fungono da colli di bottiglia. Per la
 visualizzazione dei risultati è stato usato il pacchetto ProfileView.
 
-- @time: Una macro che esegue un'espressione, stampando il tempo di
+- @time
+
+Una macro che esegue un'espressione, stampando il tempo di
 esecuzione, il numero di allocazioni e il numero totale di byte che l'esecuzione ha
 causato, prima di restituire il valore dell'espressione.
 
